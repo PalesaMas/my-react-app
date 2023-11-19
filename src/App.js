@@ -20,7 +20,7 @@ export default function App() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let apiKey = "b9d9369451dab612d4df9595a347fdbb";
+    let apiKey = "833a46b69e94e5705dc61b3c66d24f97";
     let api = `https://api.openweathermap.org/data/2.5/weather?q=${searched}&appid=${apiKey}&units=metric`;
     axios.get(api).then(allVariables);
   }
